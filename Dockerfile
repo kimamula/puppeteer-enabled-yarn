@@ -1,4 +1,4 @@
-FROM node:10.12.0
+FROM node:10
 
 # https://github.com/GoogleChrome/puppeteer/issues/290#issuecomment-322838700
 RUN apt-get update \
