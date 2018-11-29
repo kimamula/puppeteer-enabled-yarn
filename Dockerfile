@@ -40,6 +40,7 @@ RUN apt-get update \
       libnss3 \
       lsb-release \
       xdg-utils \
-      wget
+      wget \
+      fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst ttf-freefont
 
 ENTRYPOINT ["yarn"]
